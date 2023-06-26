@@ -1,1 +1,26 @@
 /*This file is for all css changes that is used though out the project*/
+
+body.contact-page::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../IMAGES/cross.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.5; /* Adjust the opacity value to control the level of fading */
+    z-index: -1;
+}
+body.contact-page {
+    position: relative;
+    z-index: 1;
+}
+h1{
+    text-align: center;
+}
+
+.border{
+    border-radius: 5px;
+}
